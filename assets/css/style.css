@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://www.shutterstock.com/image-photo/purple-neon-light-streaks-radiating-600nw-2470329741.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+.container {
+  margin: 10px auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  padding: 25px 20px;
+  width: 17%;
+  text-align: center;
+  border: solid 1px;
+  border-color: rgb(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(20px);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: solid 5px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+}
+.card img:hover {
+  transition: 0.3s ease;
+  transform: scale(1.05);
+}
+
+.card h1 {
+  margin: 5px;
+}
+.title {
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 18px;
+}
+.about {
+  margin: 8px 0;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.connect {
+  margin: 3px;
+  padding-top: 4px;
+  font-weight: bold;
+}
+
+.card a i {
+  font-size: 20px;
+  color: white;
+  margin: 5px;
+}
