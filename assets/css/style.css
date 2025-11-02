@@ -29,6 +29,18 @@ body {
   backdrop-filter: blur(20px);
 }
 
+@media (max-width: 480px) {
+  .card {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 70%;
+  }
+}
+
 .card img {
   width: 100px;
   height: 100px;
